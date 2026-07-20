@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Dubai Property Hub project is deployed using a cloud-based Infrastructure as a Service (IaaS) architecture on Microsoft Azure. The website is hosted on an Ubuntu Linux Virtual Machine running the Apache2 web server and is accessible through both a custom domain name and the server's public IP address.
+The Dubai Property Hub project is deployed using a cloud-based Infrastructure as a Service (IaaS) architecture on Microsoft Azure. The website is hosted on an Ubuntu Linux Virtual Machine running the Apache2 web server and is securely accessible through the custom domain name. The Azure Virtual Machine is assigned a public IP address that is used for DNS mapping and server administration.
 
 Development was completed locally using Visual Studio Code. Version control was managed with Git and GitHub before the website was securely deployed to the Azure Virtual Machine using SSH.
 
