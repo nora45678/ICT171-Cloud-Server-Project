@@ -2,7 +2,7 @@
 
 Dubai Property Hub is a cloud-hosted educational website developed for the ICT171 Cloud Server Project at Murdoch University Dubai.
 
-The purpose of this project is to demonstrate the deployment of a modern web application using Microsoft Azure, Ubuntu Linux, Apache Web Server and GitHub while showcasing interactive web development using HTML, CSS and JavaScript.
+The purpose of this project is to demonstrate the deployment of a modern web application using Microsoft Azure Infrastructure as a Service (IaaS), Ubuntu Linux, Apache Web Server, GitHub version control, DNS configuration, SSL/TLS encryption and client-side scripting.
 
 The website introduces users to the fundamentals of Dubai real estate investing through educational content, interactive calculators, developer comparisons and a property enquiry system.
 
@@ -10,21 +10,29 @@ The website introduces users to the fundamentals of Dubai real estate investing 
 
 # Live Website
 
-**Public IP:**
+## Custom Domain
 
-http://4.186.29.190 
+https://www.dubaipropertyhub.org
+
+Alternative:
+
+https://dubaipropertyhub.org
+
+## Public IP
+
+http://4.186.29.190
 
 ---
 
 # Features
 
-- Modern responsive website
+- Responsive multi-page website
 - Dubai Real Estate Learning Hub
 - Featured Dubai property developments
 - Property Investment Calculator
 - Developer Comparison Tool
 - Property Enquiry Form
-- Client-side form validation
+- Client-side JavaScript validation
 - Local Storage enquiry history
 - Interactive navigation
 - MIT Licensed project
@@ -41,10 +49,12 @@ http://4.186.29.190
 
 ## Cloud Infrastructure
 
-- Microsoft Azure Virtual Machine
-- Ubuntu Linux
+- Microsoft Azure Virtual Machine (Ubuntu Linux)
 - Apache2 Web Server
 - SSH
+- Namecheap DNS
+- Let's Encrypt SSL/TLS
+- Certbot
 
 ## Version Control
 
@@ -78,12 +88,31 @@ ICT171-Cloud-Server-Project
 ├── js/
 │   └── script.js
 │
+├── screenshots/
+│
 ├── Documentation/
 │
 ├── index.html
 │
 └── README.md
 ```
+
+---
+
+# Documentation
+
+Project documentation is provided in the **Documentation** folder.
+
+Included documentation:
+
+- Architecture.md
+- Azure-Deployment.md
+- DNS-and-SSL.md
+- Bash-Script.md
+- GitHub.md
+- Technologies.md
+
+The documentation explains how the cloud server was deployed, configured and secured, allowing another ICT171 student to recreate the project without relying on external resources.
 
 ---
 
@@ -94,12 +123,13 @@ The website is deployed on a Microsoft Azure Ubuntu Virtual Machine running Apac
 Deployment process:
 
 1. Create Ubuntu Virtual Machine
-2. Configure Network Security Group
+2. Configure Azure Network Security Group
 3. Install Apache2
-4. Upload website files
-5. Configure permissions
-6. Deploy using SSH
-7. Access website using the VM Public IP
+4. Configure the custom domain using Namecheap DNS
+5. Install SSL/TLS using Certbot and Let's Encrypt
+6. Upload website files using SSH
+7. Verify HTTPS functionality
+8. Test automatic SSL certificate renewal
 
 ---
 
@@ -107,9 +137,11 @@ Deployment process:
 
 This project demonstrates:
 
-- Cloud deployment using Microsoft Azure
-- Linux server administration
-- Apache Web Server configuration
+- Microsoft Azure Infrastructure as a Service (IaaS)
+- Ubuntu Linux server administration
+- Apache2 Web Server configuration
+- DNS configuration using Namecheap
+- SSL/TLS implementation using Certbot
 - Git and GitHub version control
 - Responsive web design
 - Client-side JavaScript
@@ -119,26 +151,50 @@ This project demonstrates:
 ---
 
 # Screenshots
+
 ## Home Page
+
 ![Home Page](screenshots/home.png)
 
 ## Learning Hub
+
 ![Learning Hub](screenshots/learning.png)
 
 ## Featured Projects
+
 ![Featured Projects](screenshots/projects.png)
 
 ## Investment Calculator
+
 ![Investment Calculator](screenshots/calculator.png)
 
 ## Developer Comparison
+
 ![Developer Comparison](screenshots/comparison.png)
 
-## Enquiry Form
-![Enquiry Form](screenshots/enquiry.png)
+## Property Enquiry
+
+![Property Enquiry](screenshots/enquiry.png)
 
 ## About
+
 ![About](screenshots/about.png)
+
+---
+
+# Technical Evidence
+
+The repository also contains technical evidence demonstrating the successful deployment and configuration of the cloud server, including:
+
+- Azure Virtual Machine Overview
+- Azure Networking Configuration
+- Namecheap DNS Records
+- SSL Certificate
+- SSL Renewal Test
+- Apache Server Status
+- Bash Script Output
+- GitHub Repository
+- Documentation Folder
 
 ---
 
@@ -148,14 +204,16 @@ This project demonstrates:
 
 Murdoch University Dubai
 
-ICT171 – Cloud Server Project
+**ICT171 – Cloud Server Project**
 
-Student ID: **35279053**
+**Student ID:** 35279053
 
 ---
 
 # License
 
 This project is licensed under the **MIT License**.
+
+For more information, visit:
 
 https://opensource.org/licenses/MIT 
