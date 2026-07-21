@@ -6,7 +6,7 @@ The Dubai Property Hub project was developed using a combination of modern web d
 
 ---
 
-# Development Tools
+## Development Tools
 
 The following development tools were used throughout the project:
 
@@ -14,41 +14,41 @@ The following development tools were used throughout the project:
 - Git
 - GitHub
 
-Visual Studio Code was used for developing and editing the website, while Git and GitHub were used to manage version control and maintain the project repository.
+Visual Studio Code was used to develop and edit the website, while Git and GitHub were used to manage version control, track project changes, and securely maintain the project repository.
 
 ---
 
-# Cloud Platform
+## Cloud Platform
 
 The website is hosted on:
 
-- Microsoft Azure Virtual Machine (IaaS)
+- Microsoft Azure Virtual Machine (Infrastructure as a Service – IaaS)
 
-Microsoft Azure provides the cloud infrastructure required to host the Ubuntu server and web application.
+Microsoft Azure provides the cloud infrastructure required to host the Ubuntu Linux Virtual Machine, making the website publicly accessible via the internet.
 
 ---
 
-# Operating System
+## Operating System
 
 The server runs:
 
 - Ubuntu Linux
 
-Ubuntu provides a stable and secure operating system for hosting Apache and the website.
+Ubuntu provides a stable, secure, and reliable operating system for hosting the Apache2 web server and the Dubai Property Hub website.
 
 ---
 
-# Web Server
+## Web Server
 
 The website is served using:
 
 - Apache2 Web Server
 
-Apache handles incoming HTTP and HTTPS requests and delivers the website content to users.
+Apache2 processes incoming HTTP and HTTPS requests and delivers the website content securely to users through their web browsers.
 
 ---
 
-# Programming Languages
+## Programming Languages
 
 The website was developed using:
 
@@ -56,11 +56,11 @@ The website was developed using:
 - CSS3
 - JavaScript
 
-These technologies provide the website structure, styling, responsiveness, and interactive functionality.
+These technologies provide the website's structure, responsive styling, and interactive functionality, including the Investment Calculator, Developer Comparison Tool, navigation menu, and Property Enquiry Form.
 
 ---
 
-# Networking and Security
+## Networking and Security
 
 The following technologies were used to securely deploy and manage the website:
 
@@ -69,22 +69,22 @@ The following technologies were used to securely deploy and manage the website:
 - Let's Encrypt
 - Certbot
 
-SSH provides secure remote administration, while Namecheap manages the domain name. Let's Encrypt and Certbot were used to install and automatically renew SSL/TLS certificates for secure HTTPS communication.
+SSH provides secure remote administration of the Azure Virtual Machine. Namecheap BasicDNS manages the custom domain and DNS records, while Let's Encrypt and Certbot provide and automatically renew the SSL/TLS certificates used to secure HTTPS communication.
 
 ---
 
-# Version Control
+## Version Control
 
 Version control was implemented using:
 
 - Git
 - GitHub
 
-These tools were used to track project changes, maintain version history, and securely store the complete source code and documentation online.
+These tools were used to track project changes, maintain version history, securely store the source code and documentation, and support future maintenance of the project.
 
 ---
 
-# Project Features
+## Project Features
 
 The completed website includes:
 
@@ -99,7 +99,7 @@ The completed website includes:
 
 ---
 
-# Browser Testing
+## Browser Testing
 
 The website was tested using modern web browsers to verify:
 
@@ -107,6 +107,7 @@ The website was tested using modern web browsers to verify:
 - Navigation menu
 - Interactive JavaScript features
 - Investment Calculator
+- Developer Comparison Tool
 - Property Enquiry Form
 - Learning Hub
 - Cross-page navigation
@@ -116,6 +117,6 @@ Testing confirmed that all major website features operated correctly across supp
 
 ---
 
-# Outcome
+## Outcome
 
-The selected technologies worked together to deliver a secure, responsive, and cloud-hosted educational website. By combining Azure cloud infrastructure, Ubuntu Linux, Apache2, GitHub version control, modern web technologies, and SSL/TLS security, the project demonstrates the practical application of cloud computing and web development principles.
+The selected technologies worked together to deliver a secure, responsive, and cloud-hosted educational website. By combining Microsoft Azure cloud infrastructure, Ubuntu Linux, Apache2, Git and GitHub version control, modern web development technologies, and SSL/TLS security, the project demonstrates the practical application of cloud computing, Linux server administration, website deployment, and modern web development principles.
