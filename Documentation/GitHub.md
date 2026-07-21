@@ -1,75 +1,64 @@
-# GitHub Repository
+GitHub Repository
+Overview
 
-## Overview
+Git was used as the version control system throughout the development of the Dubai Property Hub website, while GitHub was used to host the project's source code and technical documentation. Using Git and GitHub allowed project changes to be tracked, previous versions to be restored when required, and all project files to be securely stored online.
 
-Git was used as the version control system throughout the development of the Dubai Property Hub website, while GitHub was used to host the project's source code and documentation. Using Git and GitHub allowed changes to be tracked, previous versions to be restored if necessary, and the complete project to be stored securely online.
+The public GitHub repository serves as the central location for the website source code, technical documentation, screenshots, and supporting project files.
 
-The public GitHub repository serves as the central location for all project files and documentation.
+Repository URL
 
----
+https://github.com/nora45678/ICT171-Cloud-Server-Project
 
-# Repository Contents
+Repository Contents
 
 The repository includes:
 
-- HTML source code
-- CSS stylesheets
-- JavaScript files
-- Website images
-- Project documentation
-- README file
-- Project screenshots
-- Bash maintenance script
+HTML source code
+CSS stylesheets
+JavaScript files
+Website images
+Technical documentation
+README file
+Project screenshots
+Bash maintenance script
+MIT License
+Git Workflow
 
----
+The following Git workflow was used throughout the project:
 
-# Git Workflow
+Develop and edit website files locally using Visual Studio Code.
+Stage modified files using Git.
+Create a commit with a descriptive commit message.
+Push the latest changes to the GitHub repository.
+Verify that the repository has been updated successfully.
 
-The following Git workflow was used during development:
+The primary Git commands used during development were:
 
-1. Edit project files locally.
-2. Stage modified files using Git.
-3. Create a commit with a meaningful commit message.
-4. Push changes to the GitHub repository.
-5. Verify that the latest version was successfully uploaded.
-
-The primary Git commands used were:
-
-```bash
 git add .
 git commit -m "Meaningful commit message"
 git push origin HEAD:main
-```
-
----
-
-# Repository Features
+Repository Features
 
 The GitHub repository provides:
 
-- Public access to the project source code
-- Complete version history
-- Project documentation
-- Screenshots demonstrating project completion
-- Source code backup
-- Meaningful commit history
-- Easy access for future maintenance and updates
-
----
-
-# Benefits of Using GitHub
+Public access to the complete project source code
+Version history showing the progression of the project
+Technical documentation explaining deployment and configuration
+Project screenshots demonstrating successful implementation
+Secure online backup of all project files
+Centralised storage for source code and documentation
+Easy access for future maintenance and future updates
+Benefits of Using GitHub
 
 Using GitHub provided several advantages during the project:
 
-- Tracks changes throughout development
-- Maintains a complete version history
-- Stores project files securely online
-- Simplifies future maintenance and updates
-- Supports collaboration and code sharing
-- Provides a central repository for documentation and source code
+Tracks changes throughout development
+Maintains version history for project files
+Stores project files securely online
+Simplifies future maintenance and updates
+Supports collaboration and code sharing
+Provides a central repository for documentation and source code
+Enables project recovery if local files are lost or corrupted
+Outcome
 
----
-
-# Outcome
-
-GitHub was successfully used to manage the development of the project from start to finish. The repository contains all source code, documentation, screenshots, and supporting files required to reproduce and maintain the website, demonstrating effective use of version control throughout the project.
+GitHub was successfully used to manage the development, documentation, and deployment of the Dubai Property Hub project. The repository contains the complete website source code, technical documentation, screenshots, Bash maintenance script, and supporting files required to reproduce, maintain, and further develop the website. The project demonstrates the effective use of Git and GitHub for version control, documentation management, and secure project backup.
