@@ -217,6 +217,7 @@ https://opensource.org/licenses/MIT
 
 # Video Explainer
 
-A video walkthrough demonstrating the deployment, configuration, and functionality of the Dubai Property Hub project will be added before final submission.
+A video walkthrough demonstrating the deployment, configuration, and functionality of the Dubai Property Hub project.
 
-**Video Link:** *(To be added after recording.)*
+**Video Link:** *(ICT171 cloud server project demonstration- KHADIJA Noor 35279053 
+https://youtu.be/jpQxFsrbF1A)*
