@@ -2,7 +2,7 @@
 
 ## Overview
 
-Git was used as the version control system throughout the development of the **Dubai Property Hub** website, while GitHub was used to host the project's source code and technical documentation. Using Git and GitHub allowed project changes to be be tracked, previous versions to be restored when required, and all project files to be securely stored online.
+Git was used as the version control system throughout the development of the **Dubai Property Hub** website, while GitHub was used to host the project's source code and technical documentation. Using Git and GitHub allowed project changes to be tracked, previous versions to be restored when required, and all project files to be securely stored online.
 
 The public GitHub repository serves as the central location for the website source code, technical documentation, screenshots, and supporting project files.
 
